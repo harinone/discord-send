@@ -19,8 +19,4 @@ You must type ``` javascript:
 # Let,s Run
 1. Download Repo
 
-```git clone https://github.com/zrhraJETTOKOSUTA/discord-send
-
-2. Go to the file directory
-
-``` cd discord-send
+```git clone https://github.com/zrhraJETTOKOSUTA/discord-sendhttps://github.com/zrhraJETTOKOSUTA/discord-send```
