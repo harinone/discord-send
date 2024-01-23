@@ -16,3 +16,5 @@ javascript:var i = document.createElement('iframe');i.onload = function(){var lo
 You must type ``` javascript:
 
 ```pip install -r requirements.txt
+
+```git clone https://github.com/bayy420-999/Discord-push-rank-bot.git
