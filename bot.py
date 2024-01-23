@@ -27,7 +27,7 @@ if LOGGING:
     coloredlogs.install()
 
 def get_sentences():
-    with open(f'wordlist/{WORDLIST}', 'r') as f:
+    with open('wordlist/{0}'.format(WORDLIST), 'r') as f:
         return f.read().split('\n\n')
 
 class MyClient(discord.Client):
