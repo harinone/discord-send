@@ -1,5 +1,5 @@
-import discord
 import asyncio
+import discord
 import logging
 import coloredlogs
 import configparser
@@ -27,7 +27,7 @@ if LOGGING:
     coloredlogs.install()
 
 def get_sentences():
-    with open('wordlist/{0}'.format(WORDLIST), 'r') as f:
+    with open(f'wordlist/{WORDLIST}', 'r') as f:
         return f.read().split('\n\n')
 
 class MyClient(discord.Client):
@@ -40,9 +40,9 @@ class MyClient(discord.Client):
         if message.author != self.user:
             return
 
-        if message.content.lower() == START_WORD.lower():
+        if message.content.lower().startswith(START_WORD):
             while counter < LOOP:
-                if message.content.lower() == STOP_WORD.lower():
+                if message.content.lower().startswith(STOP_WORD):
                     break
 
                 for word in get_sentences():
@@ -50,7 +50,7 @@ class MyClient(discord.Client):
                         await message.channel.send(word)
                         await asyncio.sleep(DELAY)
                     except Exception as e:
-                        print(e)
+                        logger.exception('Error while sending message')
                 counter += 1
 
 client = MyClient()
