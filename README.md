@@ -1,4 +1,4 @@
-# discord-send
+# Auto Send Message Discord
 
 # Install
 Python 3.7
