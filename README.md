@@ -1,6 +1,6 @@
 # Auto Send Message Discord
 
-# Install
+# Requiment
 Python 3.7
 
 Install Git
