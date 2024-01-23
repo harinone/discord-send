@@ -21,3 +21,7 @@ You must type ``` javascript:
 ```console
 git clone https://github.com/zrhraJETTOKOSUTA/discord-send
 ```
+2. Go to the file directory
+```slebew
+cd discord-send
+```
