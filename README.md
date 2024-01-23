@@ -18,13 +18,6 @@ You must type ``` javascript:
 
 # Let,s Run
 1. Download Repo
-
-<script>
-function copyToClipboard() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
-}
-</script>
+```console
+git clone https://github.com/zrhraJETTOKOSUTA/discord-send
+```
